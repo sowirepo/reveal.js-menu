@@ -505,7 +505,7 @@ var RevealMenu = window.RevealMenu || (function(){
 						return button;
 					}
 
-					addToolbarButton('Slides', 'Slides', 'fa-images', 'fas', openPanel, true);
+					addToolbarButton('Slides', 'Slides', 'fa-images', 'fa fa-list', openPanel, true);
 
 					if (custom) {
 						custom.forEach(function(element, index, array) {
@@ -520,7 +520,7 @@ var RevealMenu = window.RevealMenu || (function(){
 						addToolbarButton('Transitions', 'Transitions', 'fa-sticky-note', 'fas', openPanel);
 					}
 					button = create('li', {id: 'close', 'class': 'toolbar-panel-button'});
-					button.appendChild(create('i', {'class': 'fas fa-times'}));
+					button.appendChild(create('i', {'class': 'fa fa-times'}));
 					button.appendChild(create('br'));
 					button.appendChild(create('span', {'class': 'slide-menu-toolbar-label'}, 'Close'));
 					button.onclick = function() { closeMenu(null, true) };
