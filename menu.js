@@ -571,9 +571,9 @@ var RevealMenu = window.RevealMenu || (function(){
                         });
 
                         if (markers) {
-                            item.appendChild(create('i', {class: 'fas fa-check-circle fa-fw past'}));
-                            item.appendChild(create('i', {class: 'fas fa-arrow-alt-circle-right fa-fw active'}));
-                            item.appendChild(create('i', {class: 'far fa-circle fa-fw future'}));
+                            item.appendChild(create('i', {class: 'fa fa-check-circle fa-fw past'}));
+                            item.appendChild(create('i', {class: 'fa fa-arrow-alt-circle-right fa-fw active'}));
+                            item.appendChild(create('i', {class: 'fa fa-circle fa-fw future'}));
                         }
 
                         if (numbers) {
